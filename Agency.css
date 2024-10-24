@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}                                      
+.navbar{
+    background-image: linear-gradient(to right, red, yellow);
+    position: sticky;
+    margin: 0;
+}
+.navbar-brand img{
+    height: 50px;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.navbar li{
+    padding: 0 10px;
+}
+.navbar li a{
+    color: white  !important;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+}
+.navbar a:hover{
+    color: orangered !important;
+    font-weight: bold;
+}
+.fa-bars {
+    color: white;
+}
+
+/* --------Home Section ----- */
+
+#banner{
+    margin: 0;   
+    background-image: linear-gradient(to right,red, yellow);
+    color: white;
+    font-size: 15px;
+    padding-top: 100px;
+}
+#banner a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.bannerhead{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+#banner a:hover{
+    text-decoration: underline;
+}
+.play-btn{
+    width: 50px;
+    margin: 20px;
+}
+.banwave{
+    width:100%;
+}
+
+/* Service Section */
+.ser-head{
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+.ser-head h2{
+    font-size: 40px;
+    font-weight: 550;
+}
+.ser-img{
+    width: 100px;
+    padding: 10px !important;
+}
+.ser-3 h4{
+    font-size: 20px;
+    font-weight: 550;
+    padding: 10px !important;
+}
+.ser-title::before{
+    content: '';
+    background: linear-gradient(to right,red, yellow);
+    height: 5px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(65px);
+}
+.ser-title::after{
+    content: '';
+    background: linear-gradient(to right,red, yellow);
+    height: 10px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(10px);
+}
+#services .btn-primary{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+    box-shadow: none;
+    font-weight: 50;
+    background-image: linear-gradient(to bottom,red, yellow);
+}
+
+
+/* About US Section */
+
+#aboutus{
+    margin: 150px 0;
+}
+#aboutus h3{
+    font-size: 40px;
+    font-weight: 550;
+    padding: 10px 40px;
+}
+#aboutus ul li{
+    padding: 5px;
+}
+#aboutus ul{
+padding-left: 75px;
+}
+
+/* Section Testimonials*/
+
+#testimonials{
+    margin: 150px 0;
+}
+.testimonial{
+    border-left: 5px solid red;
+    margin: 50px 0px;
+}
+.testimonial img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.comments{
+    display: inline-block;
+    font-size: 15px;
+}
+
+/* Section Social-Media*/
+#social-media{
+    margin: 150px 0;
+}
+.social-head{
+    font-size: 40px;
+    font-weight: 550;
+    margin-bottom: 40px;
+}
+.social-icons img{
+    width: 70px;
+    transition: 0.1s;
+    margin: 10px;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* Section Footer*/
+#footer{
+background-image: linear-gradient(to right,red, yellow);
+color: white;
+}
+.footwave img{
+    width: 100%;
+}
+.footer-box{    
+    padding: 25px;
+}
+.footer-box img{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.footer-box .fa-solid{
+    font-size: 20px;
+    padding: 7px;
+    background-image: linear-gradient(to bottom,red, yellow);
+    border-radius: 2px;
+    margin-right: 7px;
+}
+.footer-box .form-conrol{
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0;
+    max-width: 250px !important;
+    margin-top: 20px;
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 3px;
+    margin-top: 25px;
+    background-image: linear-gradient(to bottom,red, yellow);
+}
+#footer hr{
+    background-color: white;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 0;
+    padding: 5px 0px 15px 0px;
+}
